@@ -1,0 +1,57 @@
+/* Custom styles on top of Bootstrap */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-bottom: 5px solid #4a2b6d;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.auth-container {
+    max-width: 500px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+.status-upcoming {
+    color: #0d6efd;
+    font-weight: bold;
+}
+.status-ongoing {
+    color: #198754;
+    font-weight: bold;
+}
+.status-completed {
+    color: #6c757d;
+    font-weight: bold;
+}
